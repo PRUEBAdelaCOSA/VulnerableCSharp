@@ -615,7 +615,7 @@
           }
         }
       },
-      "TinyMCE/3.5.0": {
+      "TinyMCE/3.5.0.1": {
         "type": "package"
       },
       "UmbracoCms/6.0.0": {
@@ -1016,10 +1016,10 @@
         "servicestack.text.nuspec"
       ]
     },
-    "TinyMCE/3.5.0": {
-      "sha512": "phUbD5pC73eBwrAHSyxakFdKDbVdIXlI+tj9Kjf2cv6vbh0LbbJ6N4yOz+UMUIIDX7OpQgUpWcRL9aTq9nEOiA==",
+    "TinyMCE/3.5.0.1": {
+      "sha512": "03riMvZs6qrps5v/HljDMDvsOb4XhxfFakWD0ClVC9ODkhQzcdBr8139IvR8DPDgFfRWmlSdpKqJyPsNew//oA==",
       "type": "package",
-      "path": "tinymce/3.5.0",
+      "path": "tinymce/3.5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1280,7 +1280,7 @@
         "content/scripts/tinymce/utils/form_utils.js",
         "content/scripts/tinymce/utils/mctabs.js",
         "content/scripts/tinymce/utils/validate.js",
-        "tinymce.3.5.0.nupkg.sha512",
+        "tinymce.3.5.0.1.nupkg.sha512",
         "tinymce.nuspec"
       ]
     },
@@ -3219,7 +3219,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Kentico.Libraries >= 10.0.25",
-      "TinyMCE >= 3.5.0",
+      "TinyMCE >= 3.5.0.1",
       "UmbracoCms >= 6.0.0"
     ]
   },
@@ -3273,7 +3273,7 @@
           },
           "TinyMCE": {
             "target": "Package",
-            "version": "[3.5.0, )"
+            "version": "[3.5.0.1, )"
           },
           "UmbracoCms": {
             "target": "Package",

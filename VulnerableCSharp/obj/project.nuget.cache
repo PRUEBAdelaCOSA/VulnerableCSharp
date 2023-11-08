@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eONKpI7TCBxP+6IJSGzUMABRk0pze+fug/9DHTptroYfIkr2KPecH9Rv6DlscicD1LYz9rnyq/kpPdTwOnJkcw==",
+  "dgSpecHash": "enR1vg70kXVfnPSVugMxe8Lh2OpmElEhiZpHi5b3sBbzZUdSygxFZ3TkAIpS+2/ifz+tvFb19M1jb0v8ifSnbQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jackie Tan Junwei\\Documents\\Scantist\\VulnerableCSharp\\VulnerableCSharp\\VulnerableCSharp.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\microsoft.aspnet.webpages\\2.0.20710\\microsoft.aspnet.webpages.2.0.20710.nupkg.sha512",
     "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\servicestack.text\\3.9.21\\servicestack.text.3.9.21.nupkg.sha512",
-    "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\tinymce\\3.5.0\\tinymce.3.5.0.nupkg.sha512",
+    "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\tinymce\\3.5.0.1\\tinymce.3.5.0.1.nupkg.sha512",
     "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\umbracocms\\6.0.0\\umbracocms.6.0.0.nupkg.sha512",
     "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\umbracocms.core\\6.0.0\\umbracocms.core.6.0.0.nupkg.sha512"
   ],
