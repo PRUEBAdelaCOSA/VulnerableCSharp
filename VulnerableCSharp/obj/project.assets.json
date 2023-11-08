@@ -2,6 +2,520 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Kentico.Libraries/10.0.25": {
+        "type": "package",
+        "dependencies": {
+          "Kentico.Libraries.Dependencies": "[10.0.25]"
+        },
+        "compile": {
+          "lib/net45/CMS.Activities.Loggers.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Activities.dll": {
+            "related": ".Loggers.xml;.XML"
+          },
+          "lib/net45/CMS.AmazonStorage.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Automation.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.AzureStorage.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.BannerManagement.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Base.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Blogs.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Chat.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Community.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ContactManagement.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ContinuousIntegration.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Core.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.CustomTables.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DataCom.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DataEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DataProviderSQL.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DeviceProfiles.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DocumentEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DocumentWebServices.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Ecommerce.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.EmailEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.EventLog.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.EventManager.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ExternalAuthentication.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.FileSystemStorage.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.FormEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Forums.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Globalization.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.HealthMonitoring.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Helpers.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.IO.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ImportExport.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.LicenseProvider.XmlSerializers.dll": {},
+          "lib/net45/CMS.LicenseProvider.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Localization.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.MacroEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.MediaLibrary.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Membership.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.MembershipProvider.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.MessageBoards.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Messaging.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ModuleLicenses.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ModuleUsageTracking.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Modules.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Mvc.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Newsletters.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.OnlineForms.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.OnlineMarketing.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Personas.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Polls.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.PortalEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Protection.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Relationships.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Reporting.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ResponsiveImages.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Routing.Web.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.SalesForce.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Scheduler.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Search.Lucene3.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Search.TextExtractors.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Search.dll": {
+            "related": ".Lucene3.XML;.TextExtractors.XML;.xml"
+          },
+          "lib/net45/CMS.SearchProviderSQL.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.SharePoint.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.SiteProvider.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.SocialMarketing.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.StrandsRecommender.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Synchronization.WSE3.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Synchronization.dll": {
+            "related": ".WSE3.XML;.xml"
+          },
+          "lib/net45/CMS.SynchronizationEngine.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Taxonomy.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.TranslationServices.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WIFIntegration.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WebAnalytics.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WebApi.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WebDAV.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WebFarmSync.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WebServices.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.WinServiceEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WorkflowEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/FiftyOne.Foundation.dll": {},
+          "lib/net45/GlobalLink.ProjectDirector.WebServices.dll": {},
+          "lib/net45/ITHit.WebDAV.Server.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Lucene.Net.WordNet.SynExpand.dll": {},
+          "lib/net45/Lucene.Net.v3.dll": {},
+          "lib/net45/MaxMindGEOIP.dll": {},
+          "lib/net45/PDFClown.dll": {},
+          "lib/net45/ThoughtWorks.QRCode.dll": {},
+          "lib/net45/Ude.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CMS.Activities.Loggers.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Activities.dll": {
+            "related": ".Loggers.xml;.XML"
+          },
+          "lib/net45/CMS.AmazonStorage.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Automation.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.AzureStorage.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.BannerManagement.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Base.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Blogs.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Chat.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Community.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ContactManagement.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ContinuousIntegration.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Core.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.CustomTables.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DataCom.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DataEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DataProviderSQL.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DeviceProfiles.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DocumentEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.DocumentWebServices.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Ecommerce.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.EmailEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.EventLog.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.EventManager.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ExternalAuthentication.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.FileSystemStorage.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.FormEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Forums.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Globalization.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.HealthMonitoring.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Helpers.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.IO.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ImportExport.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.LicenseProvider.XmlSerializers.dll": {},
+          "lib/net45/CMS.LicenseProvider.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Localization.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.MacroEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.MediaLibrary.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Membership.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.MembershipProvider.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.MessageBoards.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Messaging.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ModuleLicenses.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ModuleUsageTracking.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Modules.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Mvc.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Newsletters.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.OnlineForms.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.OnlineMarketing.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Personas.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Polls.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.PortalEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Protection.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Relationships.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Reporting.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.ResponsiveImages.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Routing.Web.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.SalesForce.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Scheduler.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Search.Lucene3.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Search.TextExtractors.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Search.dll": {
+            "related": ".Lucene3.XML;.TextExtractors.XML;.xml"
+          },
+          "lib/net45/CMS.SearchProviderSQL.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.SharePoint.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.SiteProvider.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.SocialMarketing.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.StrandsRecommender.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Synchronization.WSE3.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.Synchronization.dll": {
+            "related": ".WSE3.XML;.xml"
+          },
+          "lib/net45/CMS.SynchronizationEngine.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.Taxonomy.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.TranslationServices.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WIFIntegration.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WebAnalytics.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WebApi.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WebDAV.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WebFarmSync.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WebServices.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/CMS.WinServiceEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/CMS.WorkflowEngine.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/FiftyOne.Foundation.dll": {},
+          "lib/net45/GlobalLink.ProjectDirector.WebServices.dll": {},
+          "lib/net45/ITHit.WebDAV.Server.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Lucene.Net.WordNet.SynExpand.dll": {},
+          "lib/net45/Lucene.Net.v3.dll": {},
+          "lib/net45/MaxMindGEOIP.dll": {},
+          "lib/net45/PDFClown.dll": {},
+          "lib/net45/ThoughtWorks.QRCode.dll": {},
+          "lib/net45/Ude.dll": {}
+        }
+      },
+      "Kentico.Libraries.Dependencies/10.0.25": {
+        "type": "package",
+        "build": {
+          "build/net45/Kentico.Libraries.Dependencies.targets": {}
+        }
+      },
       "Microsoft.AspNet.Mvc/4.0.20710": {
         "type": "package",
         "dependencies": {
@@ -193,6 +707,226 @@
     }
   },
   "libraries": {
+    "Kentico.Libraries/10.0.25": {
+      "sha512": "x8SXy/Jo8kgqOOxd7qksWFOqixJixQ+AdnjT6wvdIj9pHNwBJNa4lORsoCmjdQMsawiD11lg6kJDWdqPdicw3w==",
+      "type": "package",
+      "path": "kentico.libraries/10.0.25",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "kentico.libraries.10.0.25.nupkg.sha512",
+        "kentico.libraries.nuspec",
+        "lib/net45/CMS.Activities.Loggers.dll",
+        "lib/net45/CMS.Activities.Loggers.xml",
+        "lib/net45/CMS.Activities.XML",
+        "lib/net45/CMS.Activities.dll",
+        "lib/net45/CMS.AmazonStorage.XML",
+        "lib/net45/CMS.AmazonStorage.dll",
+        "lib/net45/CMS.Automation.XML",
+        "lib/net45/CMS.Automation.dll",
+        "lib/net45/CMS.AzureStorage.XML",
+        "lib/net45/CMS.AzureStorage.dll",
+        "lib/net45/CMS.BannerManagement.XML",
+        "lib/net45/CMS.BannerManagement.dll",
+        "lib/net45/CMS.Base.dll",
+        "lib/net45/CMS.Base.xml",
+        "lib/net45/CMS.Blogs.XML",
+        "lib/net45/CMS.Blogs.dll",
+        "lib/net45/CMS.Chat.XML",
+        "lib/net45/CMS.Chat.dll",
+        "lib/net45/CMS.Community.XML",
+        "lib/net45/CMS.Community.dll",
+        "lib/net45/CMS.ContactManagement.XML",
+        "lib/net45/CMS.ContactManagement.dll",
+        "lib/net45/CMS.ContinuousIntegration.dll",
+        "lib/net45/CMS.ContinuousIntegration.xml",
+        "lib/net45/CMS.Core.XML",
+        "lib/net45/CMS.Core.dll",
+        "lib/net45/CMS.CustomTables.XML",
+        "lib/net45/CMS.CustomTables.dll",
+        "lib/net45/CMS.DataCom.XML",
+        "lib/net45/CMS.DataCom.dll",
+        "lib/net45/CMS.DataEngine.XML",
+        "lib/net45/CMS.DataEngine.dll",
+        "lib/net45/CMS.DataProviderSQL.XML",
+        "lib/net45/CMS.DataProviderSQL.dll",
+        "lib/net45/CMS.DeviceProfiles.XML",
+        "lib/net45/CMS.DeviceProfiles.dll",
+        "lib/net45/CMS.DocumentEngine.XML",
+        "lib/net45/CMS.DocumentEngine.dll",
+        "lib/net45/CMS.DocumentWebServices.XML",
+        "lib/net45/CMS.DocumentWebServices.dll",
+        "lib/net45/CMS.Ecommerce.XML",
+        "lib/net45/CMS.Ecommerce.dll",
+        "lib/net45/CMS.EmailEngine.XML",
+        "lib/net45/CMS.EmailEngine.dll",
+        "lib/net45/CMS.EventLog.XML",
+        "lib/net45/CMS.EventLog.dll",
+        "lib/net45/CMS.EventManager.XML",
+        "lib/net45/CMS.EventManager.dll",
+        "lib/net45/CMS.ExternalAuthentication.dll",
+        "lib/net45/CMS.ExternalAuthentication.xml",
+        "lib/net45/CMS.FileSystemStorage.dll",
+        "lib/net45/CMS.FileSystemStorage.xml",
+        "lib/net45/CMS.FormEngine.XML",
+        "lib/net45/CMS.FormEngine.dll",
+        "lib/net45/CMS.Forums.XML",
+        "lib/net45/CMS.Forums.dll",
+        "lib/net45/CMS.Globalization.XML",
+        "lib/net45/CMS.Globalization.dll",
+        "lib/net45/CMS.HealthMonitoring.XML",
+        "lib/net45/CMS.HealthMonitoring.dll",
+        "lib/net45/CMS.Helpers.dll",
+        "lib/net45/CMS.Helpers.xml",
+        "lib/net45/CMS.IO.XML",
+        "lib/net45/CMS.IO.dll",
+        "lib/net45/CMS.ImportExport.XML",
+        "lib/net45/CMS.ImportExport.dll",
+        "lib/net45/CMS.LicenseProvider.XML",
+        "lib/net45/CMS.LicenseProvider.XmlSerializers.dll",
+        "lib/net45/CMS.LicenseProvider.dll",
+        "lib/net45/CMS.Localization.dll",
+        "lib/net45/CMS.Localization.xml",
+        "lib/net45/CMS.MacroEngine.XML",
+        "lib/net45/CMS.MacroEngine.dll",
+        "lib/net45/CMS.MediaLibrary.XML",
+        "lib/net45/CMS.MediaLibrary.dll",
+        "lib/net45/CMS.Membership.XML",
+        "lib/net45/CMS.Membership.dll",
+        "lib/net45/CMS.MembershipProvider.XML",
+        "lib/net45/CMS.MembershipProvider.dll",
+        "lib/net45/CMS.MessageBoards.dll",
+        "lib/net45/CMS.MessageBoards.xml",
+        "lib/net45/CMS.Messaging.XML",
+        "lib/net45/CMS.Messaging.dll",
+        "lib/net45/CMS.ModuleLicenses.XML",
+        "lib/net45/CMS.ModuleLicenses.dll",
+        "lib/net45/CMS.ModuleUsageTracking.XML",
+        "lib/net45/CMS.ModuleUsageTracking.dll",
+        "lib/net45/CMS.Modules.XML",
+        "lib/net45/CMS.Modules.dll",
+        "lib/net45/CMS.Mvc.XML",
+        "lib/net45/CMS.Mvc.dll",
+        "lib/net45/CMS.Newsletters.dll",
+        "lib/net45/CMS.Newsletters.xml",
+        "lib/net45/CMS.OnlineForms.XML",
+        "lib/net45/CMS.OnlineForms.dll",
+        "lib/net45/CMS.OnlineMarketing.XML",
+        "lib/net45/CMS.OnlineMarketing.dll",
+        "lib/net45/CMS.Personas.XML",
+        "lib/net45/CMS.Personas.dll",
+        "lib/net45/CMS.Polls.XML",
+        "lib/net45/CMS.Polls.dll",
+        "lib/net45/CMS.PortalEngine.XML",
+        "lib/net45/CMS.PortalEngine.dll",
+        "lib/net45/CMS.Protection.XML",
+        "lib/net45/CMS.Protection.dll",
+        "lib/net45/CMS.Relationships.XML",
+        "lib/net45/CMS.Relationships.dll",
+        "lib/net45/CMS.Reporting.XML",
+        "lib/net45/CMS.Reporting.dll",
+        "lib/net45/CMS.ResponsiveImages.dll",
+        "lib/net45/CMS.ResponsiveImages.xml",
+        "lib/net45/CMS.Routing.Web.XML",
+        "lib/net45/CMS.Routing.Web.dll",
+        "lib/net45/CMS.SalesForce.XML",
+        "lib/net45/CMS.SalesForce.dll",
+        "lib/net45/CMS.Scheduler.XML",
+        "lib/net45/CMS.Scheduler.dll",
+        "lib/net45/CMS.Search.Lucene3.XML",
+        "lib/net45/CMS.Search.Lucene3.dll",
+        "lib/net45/CMS.Search.TextExtractors.XML",
+        "lib/net45/CMS.Search.TextExtractors.dll",
+        "lib/net45/CMS.Search.dll",
+        "lib/net45/CMS.Search.xml",
+        "lib/net45/CMS.SearchProviderSQL.XML",
+        "lib/net45/CMS.SearchProviderSQL.dll",
+        "lib/net45/CMS.SharePoint.XML",
+        "lib/net45/CMS.SharePoint.dll",
+        "lib/net45/CMS.SiteProvider.XML",
+        "lib/net45/CMS.SiteProvider.dll",
+        "lib/net45/CMS.SocialMarketing.dll",
+        "lib/net45/CMS.SocialMarketing.xml",
+        "lib/net45/CMS.StrandsRecommender.XML",
+        "lib/net45/CMS.StrandsRecommender.dll",
+        "lib/net45/CMS.Synchronization.WSE3.XML",
+        "lib/net45/CMS.Synchronization.WSE3.dll",
+        "lib/net45/CMS.Synchronization.dll",
+        "lib/net45/CMS.Synchronization.xml",
+        "lib/net45/CMS.SynchronizationEngine.dll",
+        "lib/net45/CMS.SynchronizationEngine.xml",
+        "lib/net45/CMS.Taxonomy.XML",
+        "lib/net45/CMS.Taxonomy.dll",
+        "lib/net45/CMS.TranslationServices.XML",
+        "lib/net45/CMS.TranslationServices.dll",
+        "lib/net45/CMS.WIFIntegration.XML",
+        "lib/net45/CMS.WIFIntegration.dll",
+        "lib/net45/CMS.WebAnalytics.XML",
+        "lib/net45/CMS.WebAnalytics.dll",
+        "lib/net45/CMS.WebApi.XML",
+        "lib/net45/CMS.WebApi.dll",
+        "lib/net45/CMS.WebDAV.XML",
+        "lib/net45/CMS.WebDAV.dll",
+        "lib/net45/CMS.WebFarmSync.XML",
+        "lib/net45/CMS.WebFarmSync.dll",
+        "lib/net45/CMS.WebServices.dll",
+        "lib/net45/CMS.WebServices.xml",
+        "lib/net45/CMS.WinServiceEngine.XML",
+        "lib/net45/CMS.WinServiceEngine.dll",
+        "lib/net45/CMS.WorkflowEngine.XML",
+        "lib/net45/CMS.WorkflowEngine.dll",
+        "lib/net45/FiftyOne.Foundation.dll",
+        "lib/net45/GlobalLink.ProjectDirector.WebServices.dll",
+        "lib/net45/ITHit.WebDAV.Server.dll",
+        "lib/net45/ITHit.WebDAV.Server.xml",
+        "lib/net45/Lucene.Net.WordNet.SynExpand.dll",
+        "lib/net45/Lucene.Net.v3.dll",
+        "lib/net45/MaxMindGEOIP.dll",
+        "lib/net45/PDFClown.dll",
+        "lib/net45/ThoughtWorks.QRCode.dll",
+        "lib/net45/Ude.dll"
+      ]
+    },
+    "Kentico.Libraries.Dependencies/10.0.25": {
+      "sha512": "R64QYtL/otTzPHotEmpFyKamR2pnrfjF4+KtpOWNmGP1YVf/V2SCVSKf5/yltrAs2LHAnAz1Gy4OB68mailF6g==",
+      "type": "package",
+      "path": "kentico.libraries.dependencies/10.0.25",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/AWSSDK.Core.3.1.0.0/AWSSDK.Core.dll",
+        "build/net45/AWSSDK.S3.3.1.0.0/AWSSDK.S3.dll",
+        "build/net45/ClosedXML.0.68.1.0/ClosedXML.dll",
+        "build/net45/DocumentFormat.OpenXml.2.0.5022.0/DocumentFormat.OpenXml.dll",
+        "build/net45/DotNetOpenAuth.4.0.0.11165/DotNetOpenAuth.dll",
+        "build/net45/Facebook.6.0.10.0/Facebook.dll",
+        "build/net45/HtmlAgilityPack.1.4.0.0/HtmlAgilityPack.dll",
+        "build/net45/ICSharpCode.SharpZipLib.0.85.3.365/ICSharpCode.SharpZipLib.dll",
+        "build/net45/Kentico.Libraries.Dependencies.targets",
+        "build/net45/LinkedIn.1.0.0.0/LinkedIn.dll",
+        "build/net45/LinqToTwitter.2.1.12.0/LinqToTwitter.dll",
+        "build/net45/Microsoft.IdentityModel.3.5.0.0/Microsoft.IdentityModel.dll",
+        "build/net45/Microsoft.SharePoint.Client.15.0.0.0/Microsoft.SharePoint.Client.dll",
+        "build/net45/Microsoft.SharePoint.Client.Runtime.15.0.0.0/Microsoft.SharePoint.Client.Runtime.dll",
+        "build/net45/Microsoft.SqlServer.TransactSql.ScriptDom.13.100.0.0/Microsoft.SqlServer.TransactSql.ScriptDom.dll",
+        "build/net45/Microsoft.Web.Services3.3.0.0.0/Microsoft.Web.Services3.dll",
+        "build/net45/Mono.Cecil.0.9.6.0/Mono.Cecil.dll",
+        "build/net45/Mono.Cecil.Mdb.0.9.6.0/Mono.Cecil.Mdb.dll",
+        "build/net45/Mono.Cecil.Pdb.0.9.6.0/Mono.Cecil.Pdb.dll",
+        "build/net45/Mono.Cecil.Rocks.0.9.6.0/Mono.Cecil.Rocks.dll",
+        "build/net45/Newtonsoft.Json.6.0.0.0/Newtonsoft.Json.dll",
+        "build/net45/NuGet.Core.2.8.50506.491/NuGet.Core.dll",
+        "build/net45/OpenPop.2.0.4.369/OpenPop.dll",
+        "build/net45/System.Data.HashFunction.CRC.1.8.2.2/System.Data.HashFunction.CRC.dll",
+        "build/net45/System.Data.HashFunction.Core.1.8.2.2/System.Data.HashFunction.Core.dll",
+        "build/net45/System.Data.HashFunction.Interfaces.1.0.0.2/System.Data.HashFunction.Interfaces.dll",
+        "build/net45/System.Net.Http.Formatting.5.2.2.0/System.Net.Http.Formatting.dll",
+        "build/net45/System.Web.Http.5.2.2.0/System.Web.Http.dll",
+        "build/net45/System.Web.Http.WebHost.5.2.2.0/System.Web.Http.WebHost.dll",
+        "kentico.libraries.dependencies.10.0.25.nupkg.sha512",
+        "kentico.libraries.dependencies.nuspec"
+      ]
+    },
     "Microsoft.AspNet.Mvc/4.0.20710": {
       "sha512": "h6oV6Zh+jM20v+lgnU1oL7JlVqI6Q+k7FN3VYXnY7wjqU3wTBfest+iNdAUZ2OYTo62hfI286LyqRyGDaXHmAA==",
       "type": "package",
@@ -2484,6 +3218,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Kentico.Libraries >= 10.0.25",
       "TinyMCE >= 3.5.0",
       "UmbracoCms >= 6.0.0"
     ]
@@ -2532,6 +3267,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Kentico.Libraries": {
+            "target": "Package",
+            "version": "[10.0.25, )"
+          },
           "TinyMCE": {
             "target": "Package",
             "version": "[3.5.0, )"
@@ -2562,6 +3301,26 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Kentico.Libraries 10.0.25' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Kentico.Libraries",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Kentico.Libraries.Dependencies 10.0.25' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Kentico.Libraries.Dependencies",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NzcRjTa0gTiuqhSHKMFWW2k88ZqoWAD858Jt8MGQHMSC48w+iXMsshM/GdQTdoUPqsEF4RQxTCgKrF6N2uuN5Q==",
+  "dgSpecHash": "eONKpI7TCBxP+6IJSGzUMABRk0pze+fug/9DHTptroYfIkr2KPecH9Rv6DlscicD1LYz9rnyq/kpPdTwOnJkcw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jackie Tan Junwei\\Documents\\Scantist\\VulnerableCSharp\\VulnerableCSharp\\VulnerableCSharp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\kentico.libraries\\10.0.25\\kentico.libraries.10.0.25.nupkg.sha512",
+    "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\kentico.libraries.dependencies\\10.0.25\\kentico.libraries.dependencies.10.0.25.nupkg.sha512",
     "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\microsoft.aspnet.mvc\\4.0.20710\\microsoft.aspnet.mvc.4.0.20710.nupkg.sha512",
     "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\microsoft.aspnet.mvc.fixeddisplaymodes\\1.0.0\\microsoft.aspnet.mvc.fixeddisplaymodes.1.0.0.nupkg.sha512",
     "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\microsoft.aspnet.razor\\2.0.20710\\microsoft.aspnet.razor.2.0.20710.nupkg.sha512",
@@ -15,6 +17,26 @@
     "C:\\Users\\Jackie Tan Junwei\\.nuget\\packages\\umbracocms.core\\6.0.0\\umbracocms.core.6.0.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Kentico.Libraries 10.0.25' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Kentico.Libraries",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Kentico.Libraries.Dependencies 10.0.25' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Kentico.Libraries.Dependencies",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

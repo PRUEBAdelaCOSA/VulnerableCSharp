@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Kentico.Libraries" Version="10.0.25" />
     <PackageReference Include="TinyMCE" Version="3.5.0" />
     <PackageReference Include="UmbracoCms" Version="6.0.0" />
   </ItemGroup>
