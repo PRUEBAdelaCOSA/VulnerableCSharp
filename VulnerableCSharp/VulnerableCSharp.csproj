@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <PackageReference Include="UmbracoCms" Version="4.11.2" />
-    <PackageReference Include="UmbracoCms.Core" Version="4.11.2" />
   </ItemGroup>
 
 </Project>

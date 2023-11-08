@@ -1976,8 +1976,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "UmbracoCms >= 4.11.2",
-      "UmbracoCms.Core >= 4.11.2"
+      "UmbracoCms >= 4.11.2"
     ]
   },
   "packageFolders": {
@@ -2025,10 +2024,6 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "UmbracoCms": {
-            "target": "Package",
-            "version": "[4.11.2, )"
-          },
-          "UmbracoCms.Core": {
             "target": "Package",
             "version": "[4.11.2, )"
           }

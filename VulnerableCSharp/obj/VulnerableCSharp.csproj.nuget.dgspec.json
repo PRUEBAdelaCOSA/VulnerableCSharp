@@ -47,10 +47,6 @@
             "UmbracoCms": {
               "target": "Package",
               "version": "[4.11.2, )"
-            },
-            "UmbracoCms.Core": {
-              "target": "Package",
-              "version": "[4.11.2, )"
             }
           },
           "imports": [
